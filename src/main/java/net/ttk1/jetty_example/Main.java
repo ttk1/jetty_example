@@ -11,5 +11,6 @@ public class Main {
         handler.addServletWithMapping(HogeServlet.class, "/");
         server.setHandler(handler);
         server.start();
+        server.join();
     }
 }
